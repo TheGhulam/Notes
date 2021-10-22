@@ -17,3 +17,11 @@ To completely purge the current buffer, both the file representation on disk and
 :retab
 
 [link](https://stackoverflow.com/questions/48735671/use-vim-retab-to-solve-taberror-inconsistent-use-of-tabs-and-spaces-in-indentat)
+### How to yank the text on a line and paste it inline in Vim?
+Copy from beginning to end of line
+^y$
+
+Easier to reach:
+_y$
+
+[link](ttps://stackoverflow.com/questions/7774015/how-to-yank-the-text-on-a-line-and-paste-it-inline-in-vim)
