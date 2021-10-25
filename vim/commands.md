@@ -25,3 +25,15 @@ Easier to reach:
 _y$
 
 [link](ttps://stackoverflow.com/questions/7774015/how-to-yank-the-text-on-a-line-and-paste-it-inline-in-vim)
+
+### Generate a number sequence in file
+
+Go to line #4, use Ctrl-v to blockwise select the first character, go down 4 lines, press Shift i, enter 0  (this is 0, followed by Space) and Esc to exit insert mode.
+
+Now use gv to re-select the previously selected area. Press g Ctrl-a to create a sequence.
+
+I start with a 0 here, so I can re-select by gv. If you start with a 1, you need to re-select by hand while omitting the first 1.
+
+Use 2g Ctrl-a to use a step count of 2.
+
+[link](https://stackoverflow.com/questions/9903660/how-to-generate-a-number-sequence-in-file-using-vi-or-vim)
