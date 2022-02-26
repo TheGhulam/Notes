@@ -26,6 +26,9 @@ _y$
 
 [link](ttps://stackoverflow.com/questions/7774015/how-to-yank-the-text-on-a-line-and-paste-it-inline-in-vim)
 
+## Replace a word with yanked word
+[link](https://vim.fandom.com/wiki/Replace_a_word_with_yanked_text)
+
 ### Generate a number sequence in file
 
 Go to line #4, use Ctrl-v to blockwise select the first character, go down 4 lines, press Shift i, enter 0  (this is 0, followed by Space) and Esc to exit insert mode.
